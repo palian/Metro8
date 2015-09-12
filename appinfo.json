@@ -1,0 +1,103 @@
+{
+    "appKeys": {
+        "BATTERY_KEY": 1,
+        "COLOR_KEY": 3,
+        "KEY_BATTERY": 0,
+        "KEY_COLOR": 2
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "PALIANTech Ent.",
+    "longName": "Metro 8",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/Bat00.png",
+                "name": "IMAGE_BAT00",
+                "type": "png"
+            },
+            {
+                "file": "images/Bat25.png",
+                "name": "IMAGE_BAT25",
+                "type": "png"
+            },
+            {
+                "file": "images/Bat50.png",
+                "name": "IMAGE_BAT50",
+                "type": "png"
+            },
+            {
+                "file": "images/Bat75.png",
+                "name": "IMAGE_BAT75",
+                "type": "png"
+            },
+            {
+                "file": "images/Bat100.png",
+                "name": "IMAGE_BAT100",
+                "type": "png"
+            },
+            {
+                "file": "images/BatCharging.png",
+                "name": "IMAGE_BATCHARGING",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[A-Za-z0-9 %:.]",
+                "file": "fonts/Segoe-ui.ttf",
+                "name": "FONT_SEGOE_NORMAL_40",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9 %:.]",
+                "file": "fonts/Segoe-ui.ttf",
+                "name": "FONT_SEGOE_NORMAL_52",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[A-Za-z0-9 %:.]",
+                "file": "fonts/Segoe-ui.ttf",
+                "name": "FONT_SEGOE_NORMAL_30",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[A-Za-z0-9 %:.]",
+                "file": "fonts/Segoe-ui.ttf",
+                "name": "FONT_SEGOE_NORMAL_45",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9 %:.]",
+                "file": "fonts/Segoe-ui.ttf",
+                "name": "FONT_SEGOE_NORMAL_50",
+                "type": "font"
+            },
+            {
+                "file": "images/Watch-32.png",
+                "name": "IMAGE_WATCH",
+                "type": "png"
+            },
+            {
+                "file": "images/BTNC55.png",
+                "name": "IMAGE_BTNC55",
+                "type": "png"
+            },
+            {
+                "file": "images/BTC55.png",
+                "name": "IMAGE_BTC55",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Metro 8",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "5bb1b762-ed0a-42f5-8ac0-de98dd435d27",
+    "versionLabel": "1.9",
+    "watchapp": {
+        "watchface": true
+    }
+}
